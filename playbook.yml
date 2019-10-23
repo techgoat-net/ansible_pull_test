@@ -1,0 +1,7 @@
+---
+- name: "test"
+  hosts: local
+  tasks:
+    - name: "Gib String aus"
+      debug:
+        msg: "Das ist ein test"
