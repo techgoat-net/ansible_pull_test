@@ -1,6 +1,6 @@
 ---
 - name: "test"
-  hosts: local
+  hosts: localhost
   tasks:
     - name: "Gib String aus"
       debug:
